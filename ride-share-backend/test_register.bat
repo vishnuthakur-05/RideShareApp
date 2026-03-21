@@ -1,0 +1,2 @@
+@echo off
+curl -v -X POST -F "user={\"firstName\":\"Test\",\"lastName\":\"User\",\"email\":\"debug_user_1@example.com\",\"password\":\"password123\",\"contactNo\":\"9876543210\",\"role\":\"PASSENGER\",\"dob\":\"2000-01-01\",\"gender\":\"male\",\"address\":{\"plotNo\":\"1\",\"areaStreet\":\"Street\",\"pincode\":\"123456\",\"city\":\"City\",\"state\":\"State\",\"country\":\"Country\"},\"docType\":\"PAN\",\"docNumber\":\"ABCDE1234F\"};type=application/json" http://localhost:8080/api/auth/register

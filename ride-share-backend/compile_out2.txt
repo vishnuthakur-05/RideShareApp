@@ -1,0 +1,73 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.infosys:ride-share-backend >-------------------
+[INFO] Building ride-share-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.3.2:clean (default-clean) @ ride-share-backend ---
+[INFO] Deleting C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-backend\target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ride-share-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ride-share-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 41 source files with javac [debug release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[102,55] cannot find symbol
+  symbol:   method getUser()
+  location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[103,48] cannot find symbol
+  symbol:   method getUser()
+  location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[103,95] cannot find symbol
+  symbol:   method getUser()
+  location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[106,46] cannot find symbol
+  symbol:   method getBrand()
+  location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[107,58] cannot find symbol
+  symbol:   method getRegistrationNumber()
+  location: class com.infosys.rideshare.entity.Vehicle
+[INFO] 5 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.720 s
+[INFO] Finished at: 2026-02-28T22:41:56+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ride-share-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[102,55] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[103,48] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[103,95] cannot find symbol
+[ERROR]   symbol:   method getUser()
+[ERROR]   location: class com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[106,46] cannot find symbol
+[ERROR]   symbol:   method getBrand()
+[ERROR]   location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/BookingService.java:[107,58] cannot find symbol
+[ERROR]   symbol:   method getRegistrationNumber()
+[ERROR]   location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

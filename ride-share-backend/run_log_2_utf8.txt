@@ -1,0 +1,602 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.infosys:ride-share-backend >-------------------
+[INFO] Building ride-share-backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.2:run (default-cli) > test-compile @ ride-share-backend >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ ride-share-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ ride-share-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 31 source files with javac [debug release 17] to target\classes
+[INFO] Annotation processing is enabled because one or more processors were found
+  on the class path. A future release of javac may disable annotation processing
+  unless at least one processor is specified by name (-processor), or a search
+  path is specified (--processor-path, --processor-module-path), or annotation
+  processing is enabled explicitly (-proc:only, -proc:full).
+  Use -Xlint:-options to suppress this message.
+  Use -proc:none to disable annotation processing.
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[46,21] variable address is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[47,20] variable gender is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[50,19] method getEmail() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[54,17] method setEmail(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[58,19] method getFirstName() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[62,17] method setFirstName(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[66,19] method getLastName() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[70,17] method setLastName(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[74,19] method getContactNo() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[78,17] method setContactNo(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[50,35] cannot find symbol
+  symbol:   method getDriver()
+  location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[50,69] cannot find symbol
+  symbol:   method getId()
+  location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[65,20] cannot find symbol
+  symbol:   method setDriver(com.infosys.rideshare.entity.Driver)
+  location: variable vehicle of type com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[66,20] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable vehicle of type com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[85,35] cannot find symbol
+  symbol:   method getDriver()
+  location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[85,69] cannot find symbol
+  symbol:   method getId()
+  location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[44,75] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[44,92] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[47,47] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[58,66] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[58,104] cannot find symbol
+  symbol:   method getRole()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[60,58] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[61,66] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[62,63] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[68,32] cannot find symbol
+  symbol:   method getRole()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[82,42] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[83,41] cannot find symbol
+  symbol:   method getLastName()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[84,38] cannot find symbol
+  symbol:   method getEmail()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[85,64] cannot find symbol
+  symbol:   method getPassword()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[86,42] cannot find symbol
+  symbol:   method getContactNo()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[87,28] cannot find symbol
+  symbol:   method getDob()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[88,40] cannot find symbol
+  symbol:   method getDob()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[90,39] cannot find symbol
+  symbol:   method getGender()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[91,37] cannot find symbol
+  symbol:   method getRole()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[92,40] cannot find symbol
+  symbol:   method getAddress()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[93,13] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[99,52] cannot find symbol
+  symbol:   method getEducation()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[103,44] cannot find symbol
+  symbol:   method getDocType()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[104,46] cannot find symbol
+  symbol:   method getDocNumber()
+  location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[106,24] cannot find symbol
+  symbol:   method setFileName(java.lang.String)
+  location: variable doc of type com.infosys.rideshare.entity.Document
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[108,23] cannot find symbol
+  symbol:   method setDocument(com.infosys.rideshare.entity.Document)
+  location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[112,21] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[130,73] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[130,98] cannot find symbol
+  symbol:   method getPassword()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[137,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[138,60] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[139,63] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[140,61] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[141,66] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[142,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[150,46] cannot find symbol
+  symbol:   method getStatus()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[152,52] cannot find symbol
+  symbol:   method getStatus()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[155,91] cannot find symbol
+  symbol:   method getEmail()
+  location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[158,36] cannot find symbol
+  symbol:   method getTempPasswordFlag()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[158,74] cannot find symbol
+  symbol:   method getTempPasswordFlag()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[159,80] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[164,69] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[167,54] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[168,59] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[169,62] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[170,60] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[171,65] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[172,63] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[176,74] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[180,53] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[180,80] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[182,60] cannot find symbol
+  symbol:   method getNewPassword()
+  location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[183,17] cannot find symbol
+  symbol:   method setTempPasswordFlag(boolean)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[221,40] cannot find symbol
+  symbol:   method getTempPasswordFlag()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[221,78] cannot find symbol
+  symbol:   method getTempPasswordFlag()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[224,39] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[225,43] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[226,42] cannot find symbol
+  symbol:   method getLastName()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[227,38] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[254,21] cannot find symbol
+  symbol:   method setFirstName(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[256,21] cannot find symbol
+  symbol:   method setLastName(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[258,21] cannot find symbol
+  symbol:   method setContactNo(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[260,21] cannot find symbol
+  symbol:   method setAddress(com.infosys.rideshare.entity.Address)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[262,21] cannot find symbol
+  symbol:   method setGender(java.lang.String)
+  location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[45,55] cannot find symbol
+  symbol:   method getStatus()
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[48,55] cannot find symbol
+  symbol:   method getStatus()
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[86,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[87,14] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[88,14] cannot find symbol
+  symbol:   method setTempPasswordFlag(boolean)
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[89,14] cannot find symbol
+  symbol:   method setApprovedAt(java.time.LocalDateTime)
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[91,45] cannot find symbol
+  symbol:   method getEmail()
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[91,59] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[102,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[103,14] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[104,14] cannot find symbol
+  symbol:   method setTempPasswordFlag(boolean)
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[105,14] cannot find symbol
+  symbol:   method setApprovedAt(java.time.LocalDateTime)
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[107,45] cannot find symbol
+  symbol:   method getEmail()
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[107,59] cannot find symbol
+  symbol:   method getFirstName()
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[117,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[128,14] cannot find symbol
+  symbol:   method setStatus(java.lang.String)
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[141,59] cannot find symbol
+  symbol:   method getStatus()
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[144,58] cannot find symbol
+  symbol:   method getStatus()
+  location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[147,66] cannot find symbol
+  symbol:   method getStatus()
+  location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/config/DataSeeder.java:[24,18] cannot find symbol
+  symbol:   method setEmail(java.lang.String)
+  location: variable admin of type com.infosys.rideshare.entity.Admin
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/config/DataSeeder.java:[25,18] cannot find symbol
+  symbol:   method setPassword(java.lang.String)
+  location: variable admin of type com.infosys.rideshare.entity.Admin
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  3.779 s
+[INFO] Finished at: 2026-02-19T19:51:18+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project ride-share-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[46,21] variable address is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[47,20] variable gender is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[50,19] method getEmail() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[54,17] method setEmail(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[58,19] method getFirstName() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[62,17] method setFirstName(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[66,19] method getLastName() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[70,17] method setLastName(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[74,19] method getContactNo() is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/dto/UpdateProfileRequest.java:[78,17] method setContactNo(java.lang.String) is already defined in class com.infosys.rideshare.dto.UpdateProfileRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[50,35] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[50,69] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[65,20] cannot find symbol
+[ERROR]   symbol:   method setDriver(com.infosys.rideshare.entity.Driver)
+[ERROR]   location: variable vehicle of type com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[66,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable vehicle of type com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[85,35] cannot find symbol
+[ERROR]   symbol:   method getDriver()
+[ERROR]   location: class com.infosys.rideshare.entity.Vehicle
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/VehicleController.java:[85,69] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[44,75] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[44,92] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/MyUserDetailsService.java:[47,47] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[58,66] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[58,104] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[60,58] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[61,66] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[62,63] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[68,32] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[82,42] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[83,41] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[84,38] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[85,64] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[86,42] cannot find symbol
+[ERROR]   symbol:   method getContactNo()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[87,28] cannot find symbol
+[ERROR]   symbol:   method getDob()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[88,40] cannot find symbol
+[ERROR]   symbol:   method getDob()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[90,39] cannot find symbol
+[ERROR]   symbol:   method getGender()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[91,37] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[92,40] cannot find symbol
+[ERROR]   symbol:   method getAddress()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[93,13] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[99,52] cannot find symbol
+[ERROR]   symbol:   method getEducation()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[103,44] cannot find symbol
+[ERROR]   symbol:   method getDocType()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[104,46] cannot find symbol
+[ERROR]   symbol:   method getDocNumber()
+[ERROR]   location: variable registerRequest of type com.infosys.rideshare.dto.RegisterRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[106,24] cannot find symbol
+[ERROR]   symbol:   method setFileName(java.lang.String)
+[ERROR]   location: variable doc of type com.infosys.rideshare.entity.Document
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[108,23] cannot find symbol
+[ERROR]   symbol:   method setDocument(com.infosys.rideshare.entity.Document)
+[ERROR]   location: variable driver of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[112,21] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[130,73] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[130,98] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[137,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[138,60] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[139,63] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[140,61] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[141,66] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[142,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[150,46] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[152,52] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[155,91] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable loginRequest of type com.infosys.rideshare.dto.LoginRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[158,36] cannot find symbol
+[ERROR]   symbol:   method getTempPasswordFlag()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[158,74] cannot find symbol
+[ERROR]   symbol:   method getTempPasswordFlag()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[159,80] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[164,69] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[167,54] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[168,59] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[169,62] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[170,60] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[171,65] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[172,63] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[176,74] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[180,53] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[180,80] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[182,60] cannot find symbol
+[ERROR]   symbol:   method getNewPassword()
+[ERROR]   location: variable request of type com.infosys.rideshare.dto.ChangePasswordRequest
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[183,17] cannot find symbol
+[ERROR]   symbol:   method setTempPasswordFlag(boolean)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[221,40] cannot find symbol
+[ERROR]   symbol:   method getTempPasswordFlag()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[221,78] cannot find symbol
+[ERROR]   symbol:   method getTempPasswordFlag()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[224,39] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[225,43] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[226,42] cannot find symbol
+[ERROR]   symbol:   method getLastName()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[227,38] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[254,21] cannot find symbol
+[ERROR]   symbol:   method setFirstName(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[256,21] cannot find symbol
+[ERROR]   symbol:   method setLastName(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[258,21] cannot find symbol
+[ERROR]   symbol:   method setContactNo(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[260,21] cannot find symbol
+[ERROR]   symbol:   method setAddress(com.infosys.rideshare.entity.Address)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/controller/AuthController.java:[262,21] cannot find symbol
+[ERROR]   symbol:   method setGender(java.lang.String)
+[ERROR]   location: variable user of type com.infosys.rideshare.entity.AbstractUser
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[45,55] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[48,55] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[86,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[87,14] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[88,14] cannot find symbol
+[ERROR]   symbol:   method setTempPasswordFlag(boolean)
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[89,14] cannot find symbol
+[ERROR]   symbol:   method setApprovedAt(java.time.LocalDateTime)
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[91,45] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[91,59] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[102,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[103,14] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[104,14] cannot find symbol
+[ERROR]   symbol:   method setTempPasswordFlag(boolean)
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[105,14] cannot find symbol
+[ERROR]   symbol:   method setApprovedAt(java.time.LocalDateTime)
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[107,45] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[107,59] cannot find symbol
+[ERROR]   symbol:   method getFirstName()
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[117,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[128,14] cannot find symbol
+[ERROR]   symbol:   method setStatus(java.lang.String)
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[141,59] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[144,58] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable d of type com.infosys.rideshare.entity.Driver
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/service/AdminService.java:[147,66] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable p of type com.infosys.rideshare.entity.Passenger
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/config/DataSeeder.java:[24,18] cannot find symbol
+[ERROR]   symbol:   method setEmail(java.lang.String)
+[ERROR]   location: variable admin of type com.infosys.rideshare.entity.Admin
+[ERROR] /C:/Users/thaku/OneDrive/Desktop/InfosysProject/ride-share-backend/src/main/java/com/infosys/rideshare/config/DataSeeder.java:[25,18] cannot find symbol
+[ERROR]   symbol:   method setPassword(java.lang.String)
+[ERROR]   location: variable admin of type com.infosys.rideshare.entity.Admin
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

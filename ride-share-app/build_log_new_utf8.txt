@@ -1,0 +1,12 @@
+﻿
+> ride-share-app@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+[eslint] 
+src\services\api.js
+Syntax error: 'import' and 'export' may only appear at the top level. (76:4) (76:4)
+
+

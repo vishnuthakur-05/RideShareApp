@@ -1,0 +1,31 @@
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\FaqPage.js
+  4:23  warning  'ChevronUp' is defined but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\admin\ApprovedUsers.js
+  3:18  warning  'MoreVertical' is defined but never used  no-unused-vars
+  3:32  warning  'Shield' is defined but never used        no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\admin\PendingApprovals.js
+  3:20  warning  'Eye' is defined but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\admin\UserManagement.js
+  2:10  warning  'Search' is defined but never used        no-unused-vars
+  2:18  warning  'Filter' is defined but never used        no-unused-vars
+  2:26  warning  'MoreVertical' is defined but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\driver\DriverDashboard.js
+  6:19  warning  'setStats' is assigned a value but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\driver\Earnings.js
+  2:10  warning  'IndianRupee' is defined but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\driver\MyRides.js
+  6:19  warning  'setRides' is assigned a value but never used  no-unused-vars
+
+C:\Users\thaku\OneDrive\Desktop\InfosysProject\ride-share-app\src\pages\driver\PostRide.js
+   3:28  warning  'Clock' is defined but never used                 no-unused-vars
+  22:22  warning  'setVehicles' is assigned a value but never used  no-unused-vars
+
+✖ 12 problems (0 errors, 12 warnings)
+

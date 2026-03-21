@@ -1,0 +1,14 @@
+﻿
+> ride-share-app@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Failed to compile.
+
+[eslint] 
+src\components\Navbar.js
+  Line 9:42:  React Hook "React.useNavigate" is called conditionally. React Hooks must be called in the exact same order in every component render  react-hooks/rules-of-hooks
+
+Search for the keywords to learn more about each error.
+
+
