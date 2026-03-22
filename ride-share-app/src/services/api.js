@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8081/api/auth';
-const ADMIN_API_URL = 'http://localhost:8081/api/admin';
+const API_URL = `${process.env.REACT_APP_API_URL}/api/auth`;
+const ADMIN_API_URL = `${process.env.REACT_APP_API_URL}/api/admin`;
 
 export const registerUser = async (userData) => {
     try {
@@ -77,7 +77,7 @@ export const updateUserProfile = async (userData) => {
 export const fetchDriverVehicles = async () => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/driver/vehicles`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/driver/vehicles`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -89,7 +89,7 @@ export const fetchDriverVehicles = async () => {
 export const fetchVehicleDetails = async (id) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/driver/vehicles/${id}`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/driver/vehicles/${id}`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -101,7 +101,7 @@ export const fetchVehicleDetails = async (id) => {
 export const addVehicle = async (vehicleData) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.post(`http://localhost:8081/api/driver/vehicles`, vehicleData, {
+        const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/driver/vehicles`, vehicleData, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -113,7 +113,7 @@ export const addVehicle = async (vehicleData) => {
 export const updateVehicle = async (id, vehicleData) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.put(`http://localhost:8081/api/driver/vehicles/${id}`, vehicleData, {
+        const response = await axios.put(`${process.env.REACT_APP_API_URL}/api/driver/vehicles/${id}`, vehicleData, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -125,7 +125,7 @@ export const updateVehicle = async (id, vehicleData) => {
 export const deleteVehicle = async (id) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.delete(`http://localhost:8081/api/driver/vehicles/${id}`, {
+        const response = await axios.delete(`${process.env.REACT_APP_API_URL}/api/driver/vehicles/${id}`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -139,7 +139,7 @@ export const deleteVehicle = async (id) => {
 export const searchRides = async (params) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/rides/search`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/rides/search`, {
             headers: { Authorization: `Bearer ${token}` },
             params: params
         });
@@ -152,7 +152,7 @@ export const searchRides = async (params) => {
 export const createRide = async (rideData) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.post(`http://localhost:8081/api/rides`, rideData, {
+        const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/rides`, rideData, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -164,7 +164,7 @@ export const createRide = async (rideData) => {
 export const fetchDriverRides = async (driverId) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/rides/driver/${driverId}`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/rides/driver/${driverId}`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -176,7 +176,7 @@ export const fetchDriverRides = async (driverId) => {
 export const updateRideStatus = async (rideId, status) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.patch(`http://localhost:8081/api/rides/${rideId}/status?status=${status}`, {}, {
+        const response = await axios.patch(`${process.env.REACT_APP_API_URL}/api/rides/${rideId}/status?status=${status}`, {}, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -188,7 +188,7 @@ export const updateRideStatus = async (rideId, status) => {
 export const rescheduleRide = async (rideId, date, time) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.patch(`http://localhost:8081/api/rides/${rideId}/reschedule?date=${date}&time=${time}`, {}, {
+        const response = await axios.patch(`${process.env.REACT_APP_API_URL}/api/rides/${rideId}/reschedule?date=${date}&time=${time}`, {}, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -269,7 +269,7 @@ export const fetchDashboardStats = async () => {
 export const getPassengerBookings = async (passengerId) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/bookings/passenger/${passengerId}`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/bookings/passenger/${passengerId}`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -281,7 +281,7 @@ export const getPassengerBookings = async (passengerId) => {
 export const getDriverBookings = async (driverId) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.get(`http://localhost:8081/api/bookings/driver/${driverId}`, {
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/bookings/driver/${driverId}`, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -293,7 +293,7 @@ export const getDriverBookings = async (driverId) => {
 export const createBooking = async (bookingData) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.post(`http://localhost:8081/api/bookings`, bookingData, {
+        const response = await axios.post(`${process.env.REACT_APP_API_URL}/api/bookings`, bookingData, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
@@ -305,7 +305,7 @@ export const createBooking = async (bookingData) => {
 export const updateBookingStatus = async (bookingId, status, transactionId = null) => {
     try {
         const token = localStorage.getItem('token');
-        let url = `http://localhost:8081/api/bookings/${bookingId}/status?status=${status}`;
+        let url = `${process.env.REACT_APP_API_URL}/api/bookings/${bookingId}/status?status=${status}`;
         if (transactionId) {
             url += `&transactionId=${encodeURIComponent(transactionId)}`;
         }
@@ -321,7 +321,7 @@ export const updateBookingStatus = async (bookingId, status, transactionId = nul
 export const rateBooking = async (bookingId, rating, review) => {
     try {
         const token = localStorage.getItem('token');
-        const response = await axios.patch(`http://localhost:8081/api/bookings/${bookingId}/rate?rating=${rating}${review ? `&review=${encodeURIComponent(review)}` : ''}`, {}, {
+        const response = await axios.patch(`${process.env.REACT_APP_API_URL}/api/bookings/${bookingId}/rate?rating=${rating}${review ? `&review=${encodeURIComponent(review)}` : ''}`, {}, {
             headers: { Authorization: `Bearer ${token}` }
         });
         return response.data;
